@@ -4,10 +4,9 @@ module.exports = [{
     context: path.join(__dirname, "/views"),
     entry: {
         bundle: "./main.js",
-        bundle1: "./mainAdmin.js"
     },
     output: {
-        path: __dirname + "/public/js",
+        path: __dirname + "/public/javascripts",
         filename: "[name].js",
         library: '[name]'
     },

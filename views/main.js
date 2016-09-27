@@ -4,9 +4,6 @@ var Container = require('./components/container.react');
 
 module.exports = function (data) {
     var container = document.getElementById('content');
-    ReactDOM.render(
-        <Container {...data} />,
-        container
-    );
+    ReactDOM.render(<Container {...data} />, container);
 
 };

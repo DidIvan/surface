@@ -3,7 +3,7 @@ var path = require("path");
 module.exports = [{
     context: path.join(__dirname, "/views"),
     entry: {
-        bundle: "./main.js",
+        bundle: "./main.js"
     },
     output: {
         path: __dirname + "/public/javascripts",

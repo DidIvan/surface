@@ -10,15 +10,16 @@ var Html = React.createClass({
         var initScript = 'bundle(' + JSON.stringify(data).replace(/script/g, 'scr"+"ipt') + ')';
 
         return (
-            <html lang="en">
+            <html lang="ru">
             <head>
-                <title>Cloud Sales</title>
+                <title>mySurface</title>
                 <meta charset="utf-8"/>
-                <meta name="viewport"
-                      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+               
                 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
                 <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-                {/*Materialize*/}
+                {/*Bootstrap*/}
                 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
                 <link href="css/libs/bootstrap.css" rel="stylesheet" media="screen"/>
                 <link href="css/libs/bootstrap-theme.css" rel="stylesheet" media="screen"/>
@@ -28,7 +29,6 @@ var Html = React.createClass({
 
                 {/*Custom styles*/}
                 <link href="css/components-style/style.css" rel="stylesheet" media="screen"/>
-                <link href="css/components-style/goods-list.css" rel="stylesheet" media="screen"/>
                 <link href="css/components-style/header.css" rel="stylesheet" media="screen"/>
                 <link href="css/components-style/footer.css" rel="stylesheet" media="screen"/>
 

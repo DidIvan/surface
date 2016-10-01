@@ -6,7 +6,7 @@ module.exports = [{
         bundle: "./main.js"
     },
     output: {
-        path: __dirname + "/public/javascripts",
+        path: __dirname + "/public/js",
         filename: "[name].js",
         library: '[name]'
     },
@@ -25,7 +25,7 @@ module.exports = [{
     resolve: {
         // you can now require('file') instead of require('file.coffee')
         extensions: ["", ".js", ".jsx"],
-        root: [path.join(__dirname, "public", "javascripts")],
+        root: [path.join(__dirname, "public", "js")],
         modulesDirectories: ["node_modules"]
     }
 }];

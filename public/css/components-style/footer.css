@@ -1,3 +1,4 @@
+/*
 footer {
     position: absolute;
     left: 0;
@@ -16,11 +17,11 @@ footer .content-footer-up {
     box-sizing: inherit;
 }
 
-/*.logo-footer {
+!*.logo-footer {
     display: block;
     text-decoration: none;
     border-bottom: 2px solid #a3c756;
-}*/
+}*!
 
 
 .contacts-footer h4 {
@@ -37,4 +38,4 @@ footer .copyright {
     width: 100%;
     border-top: 2px solid #a3c756;
     padding-top: 4px;
-}
+}*/

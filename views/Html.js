@@ -22,7 +22,7 @@ var Html = React.createClass({
                 {/*Bootstrap*/}
                 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
                 <link href="css/libs/bootstrap.css" rel="stylesheet" media="screen"/>
-                <link href="css/libs/bootstrap-theme.css" rel="stylesheet" media="screen"/>
+                {/*       <link href="css/libs/bootstrap-theme.css" rel="stylesheet" media="screen"/>*/}
 
                 <script type="text/javascript" src="js/libs/jquery.js"></script>
                 <script type="text/javascript" src="js/libs/bootstrap.min.js"></script>

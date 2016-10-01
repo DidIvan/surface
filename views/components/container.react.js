@@ -4,7 +4,7 @@ var React = require("react"),
 var Container = React.createClass({
         render: function () {
             return (
-                <div>
+                <div className="">
                     <Header/>
                     <h1>Hello World!</h1>
                 </div>

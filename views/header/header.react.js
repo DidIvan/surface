@@ -16,7 +16,7 @@ var Header = React.createClass({
                         <p className="p_right">PLAY COLLEGE SPORTS</p>
                     </div>
                     <div className="row">
-                        <ul className="nav navbar-nav navbar-right">
+                        <ul className="nav">
                             <li><a href="#">FOOTBALL</a></li>
                             <li><a href="#">BASKETBALL</a></li>
                             <li><a href="#">BASEBALL</a></li>

@@ -25,8 +25,10 @@ var Header = React.createClass({
                         </ul>
                     </div>
                     <div className="row buttons">
-                        <a href="#" className="button button_1"></a>
-                        <a href="#" className="button button_2"></a>
+                        <a href="#" className="button button_1"><img src="../../img/header/IconApple.png"
+                                                                     alt="apple"/><p>download on the <br/> app store</p></a>
+                        <a href="#" className="button button_2"><img src="../../img/header/IconGoogle-Play.png"
+                                                                     alt="google"/><p>get it on the <br/> google play</p></a>
                     </div>
                 </div>
             </header>

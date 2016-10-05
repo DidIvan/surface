@@ -9,7 +9,7 @@ var Header = React.createClass({
                 <div className="container container_header">
                     <div className="header-top">
                         <a className="logo" href="#"><img src="../../img/logo.png" alt="logo"/></a>
-                        <p className="right">for athlets and coaches</p>
+                        <p className="right_logo">for athlets and coaches</p>
                     </div>
                     <div className="header-center row">
                         <p className="p_left">BE RECRUITED</p>

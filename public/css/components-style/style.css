@@ -104,9 +104,11 @@ a.button {
     position: relative;
     text-align: left;
 }
+
 .button_1 {
     margin-right: 2%;
 }
+
 .button_1 img, .button_2 img {
     display: block;
     position: absolute;
@@ -114,13 +116,16 @@ a.button {
     max-width: 100%;
     height: auto;
 }
-.button_1 img{
+
+.button_1 img {
     margin: -22px 0 0 40px;
 }
-.button_2 img{
+
+.button_2 img {
     margin: -20px 0 0 60px;
 }
-.buttons p{
+
+.buttons p {
     text-transform: uppercase;
     margin: 15px 0 0 110px;
 }
@@ -137,7 +142,30 @@ a.button:active {
 
 /*end button*/
 /* Large devices ( mobile, 320px) */
-@media screen and (width: 320px) {
+@media screen and (min-width: 320px)and (max-width: 600px) {
+    #header {
+        height: 565px;
+        overflow: hidden;
+    }
+    .logo {
+        float: none;
+        margin: 40px 0 0 0;
+        display: block;
+        text-align: center;
+    }
+
+    .header-top p {
+        display: none;
+    }
+    .header-center {
+        margin: 140px 0 0 0;
+        text-align: center;
+    }
+
+    .header-center p {
+        font-size: 2.285em; /*32/14*/
+    }
+
     .buttons {
         bottom: 90px;
     }
@@ -145,11 +173,54 @@ a.button:active {
     a.button {
         width: 142px;
         height: 38px;
+        font-size:0.571em;
+    }
+    .button_1 img, .button_2 img {
+        display: block;
+        position: absolute;
+        top: 50%;
+        max-width: 11%;
+        height: auto;
+    }
+
+    .button_1 img {
+        margin: -10px 0 0 20px;
+    }
+
+    .button_2 img {
+        margin: -10px 0 0 20px;
+    }
+
+    .buttons p {
+        text-transform: uppercase;
+        margin: 10px 0 0 45px;
+    }
+    .p_left, .p_right {
+        float: none;
+        margin: 0;
+    }
+    .buttons {
+        bottom: 95px;
+    }
+    .header-center+.row {
+        position: absolute;
+        bottom: 15px;
+    }
+    ul.nav {
+        width: 85%;
+        float: right;
+    }
+    .nav li {
+
+    }
+    .nav > li > a {
+        padding: 5px 15px;
+        font-size: 12px;
     }
 }
 
 /* Large devices (large desktops, 768px and up) */
-@media screen and (max-width: 768px) {
+@media screen and(min-width: 601px) and (max-width: 768px) {
     .header-center {
         margin: 275px 0 0 0;
         text-align: center;
@@ -172,6 +243,7 @@ a.button:active {
         margin: 235px 0 0 0;
         padding: 0 50px;
     }
+
     .nav > li > a {
         padding: 25px 30px;
     }
@@ -191,7 +263,6 @@ a.button:active {
     .buttons {
         bottom: 105px;
     }
-
 
 }
 

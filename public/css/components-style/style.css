@@ -25,9 +25,9 @@ html, body {
 }
 
 #header {
-    background: #0a0e34 url('../../img/football.png') center 100% no-repeat;
+    background: #0a0e34 url('../../img/football.png')  100% no-repeat;
     background-size: cover;
-    height: 955px;
+    height: 300px;
 }
 
 .logo {

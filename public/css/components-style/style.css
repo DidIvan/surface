@@ -19,7 +19,7 @@ html, body {
     /*    width: 85%;*/
 }
 
-.container_header {
+.container_header, .container_footer {
     height: inherit;
     position: relative;
 }
@@ -32,20 +32,22 @@ html, body {
 
 .logo {
     float: left;
-    margin: 50px 0 0 14px;
+    margin: 0 0 0 14px;
 }
 
 .logo img {
     max-width: 100%;
     height: auto;
 }
-
+.header-top{
+    margin-top: 65px;
+}
 .header-top p {
     float: right;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-    margin: 65px 30px 0 0;
+    margin: 0 30px 0 0;
 }
 
 .header-center p {

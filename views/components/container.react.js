@@ -1,5 +1,6 @@
 var React = require("react"),
-    Header = require("../header/header.react");
+    Header = require("../header/header.react"),
+    Footer = require("../footer/footer.react");
 
 var Container = React.createClass({
         render: function () {
@@ -7,6 +8,7 @@ var Container = React.createClass({
                 <div className="">
                     <Header/>
                     <h1>Hello World!</h1>
+                    <Footer/>
                 </div>
             )
         }

@@ -39,7 +39,37 @@ footer .copyright {
     border-top: 2px solid #a3c756;
     padding-top: 4px;
 }*/
-.footer_title1, .footer_title2 {
+.footer_top {
+    margin-top: 15.714rem; /*220/14*/
+}
+
+.button_download {
+    width: 130px;
+    height: 137px;
+    background: #5e42b0; /*for old browsers*/
+    background: linear-gradient(to top, #50329c, #7750da);
+    cursor: pointer;
+    position: absolute;
+    left: 20%; /*325/1600*/
+    border-radius: 30px;
+}
+.button_download img{
+    position: absolute;
+    top: 23px;
+    left: 15px;
+}
+.button_download:hover {
+    background: linear-gradient(#6737a9, #9053f3);
+    box-shadow: inset rgba(0, 0, 0, .5) 0 -1px 1px;
+}
+
+.button_download:active {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
+    box-shadow: inset rgba(0, 0, 0, .8) 0 1px 2px;
+}
+.footer_titles {
+    position: absolute;
+    left: 33%; /*490/1600*/
     line-height: 1;
     font-weight: bold;
     text-transform: uppercase;

@@ -53,11 +53,13 @@ footer .copyright {
     left: 20%; /*325/1600*/
     border-radius: 30px;
 }
-.button_download img{
+
+.button_download img {
     position: absolute;
     top: 23px;
     left: 15px;
 }
+
 .button_download:hover {
     background: linear-gradient(#6737a9, #9053f3);
     box-shadow: inset rgba(0, 0, 0, .5) 0 -1px 1px;
@@ -67,6 +69,7 @@ footer .copyright {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
     box-shadow: inset rgba(0, 0, 0, .8) 0 1px 2px;
 }
+
 .footer_titles {
     position: absolute;
     left: 33%; /*490/1600*/
@@ -81,7 +84,7 @@ footer .copyright {
 }
 
 .footer_title2 {
-    font-size: 2.571rem; /*36/14*/
+    font-size: 36px; /*36/14*/
     color: #897faf;
 }
 
@@ -138,39 +141,90 @@ footer .copyright {
 }
 
 /* Displaying on devices with width range till 768px(small devices, tablets)*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .footer_top {
         margin-top: 130px;
     }
+
     .button_download {
         left: calc(50% - 78px)
     }
+
     .footer_titles {
         position: static;
         text-align: center;
         margin: 220px 0 0 0;
     }
+
     .footer_title1 {
         font-size: 80px;
     }
+
     .footer_center {
         bottom: 220px;
     }
+
     .footer_bottom {
         bottom: 30px;
     }
+
     .logo {
         display: none;
     }
+
     .footer_bottom p {
         display: none;
     }
+
     .button_bar {
-         position: static;
+        position: static;
         text-align: center;
     }
 }
-/* Displaying on devices with width range till 480px(extra small devices, phones)*/
-@media screen and (max-width: 320px){
 
+/* Displaying on devices with width range till 480px(extra small devices, phones)*/
+@media screen and (max-width: 320px) {
+    #footer {
+        height: 570px;
+        overflow: hidden;
+    }
+
+    .footer_top {
+        margin-top: 95px;
+    }
+
+    .button_download {
+        width: 78px;
+        height: 73px;
+        left: calc(50% - 39px);
+        border-radius: 15px;
+    }
+
+    .button_download img {
+        top: 11px;
+        left: 11px;
+        width: 55px;
+    }
+
+    .footer_titles {
+        position: static;
+        text-align: center;
+        margin: 150px 0 0 0;
+    }
+
+    .footer_title1 {
+        font-size: 34px;
+    }
+
+    .footer_title2 {
+        font-size: 15px;
+    }
+
+    .footer_center {
+        bottom: 175px;
+    }
+
+    .footer_bottom {
+        bottom: 15px;
+    }
 }

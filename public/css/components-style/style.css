@@ -220,9 +220,19 @@ a.button:active {
         font-size: 12px;
     }
 }
-
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+/*@media screen and (max-width: 768px){
+    #header {
+        height: 955px;
+        overflow: hidden;
+    }
+}*/
 /* Large devices (large desktops, 768px and up) */
-@media screen and(min-width: 601px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    #header {
+        height: 955px;
+        overflow: hidden;
+    }
     .header-center {
         margin: 275px 0 0 0;
         text-align: center;

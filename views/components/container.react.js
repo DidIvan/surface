@@ -1,7 +1,7 @@
 var React = require("react"),
     Header = require("../header/header.react"),
     Footer = require("../footer/footer.react"),
-    Main = require("../content/main.react");
+    Main = require("../main/main.react");
 
 var Container = React.createClass({
         render: function () {

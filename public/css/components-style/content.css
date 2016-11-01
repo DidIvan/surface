@@ -17,6 +17,8 @@
     display: inline-block;
     border-bottom: 5px solid #5e42b0;
     font-size: 18px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .athletes_row1 {
@@ -51,10 +53,18 @@
 .growth {
     margin-top: 90px;
 }
+.growth p{
+    color: #ffffff;
+}
 
 .athletes_right {
     width: 45.75%; /*732/1600*/
     float: right;
+}
+
+.athletes .growth span {
+    color: #0b0f34;
+    border-bottom: 5px solid #efefef;
 }
 
 /*end section athletes*/

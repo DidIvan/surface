@@ -1,11 +1,14 @@
-var React = require("react");
+var React = require("react"),
+    Athletes = require("./content/athletes.react"),
+    Players = require("./content/players.react");
 
 var Main = React.createClass({
     render: function () {
         return (
             <div>
                 <main>
-                   <Athletes/>
+                    <Athletes/>
+                    <Players/>
                 </main>
             </div>
         )

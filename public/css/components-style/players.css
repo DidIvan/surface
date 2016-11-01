@@ -1,0 +1,71 @@
+/*start section athletes*/
+.players {
+    font-size: 20px;
+}
+
+.players h3 {
+    font-size: 36px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.players span {
+    position: relative;
+    bottom: 10px;
+    display: inline-block;
+    border-bottom: 5px solid #5e42b0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.players_row1 {
+    width: 100%;
+    height: 445px;
+}
+
+.players_row1 h2 {
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #e7e7e7;
+    font-weight: bold;
+    margin: 110px 0 90px 0;
+}
+
+.players_row2 {
+    width: 100%;
+    height: 250px;
+    background: #f5f6f7;
+}
+
+.collaboration {
+    margin-top: 60px;
+}
+
+.players_row3 {
+    width: 100%;
+    height: 265px;
+    background: #0a0e34;
+}
+
+.growth {
+    margin-top: 90px;
+}
+.growth p{
+    color: #ffffff;
+}
+
+.players_right {
+    width: 38.75%; /*620/1600*/
+    float: left;
+    margin-left: 9%;/*144/1600*/
+}
+
+.players .growth span {
+    color: #9173e6;
+    border-bottom: 5px solid #efefef;
+}
+
+/*end section athletes*/

@@ -1,0 +1,51 @@
+.find_contact{
+    position: relative;
+    max-height: 730px;
+}
+.find_contact_img {
+    width: 50%;
+    float: right;
+}
+
+.find_contact_img img {
+    width: 100%;
+    height: auto;
+}
+
+.find_contact_content {
+    width: 50%;
+    float: right;
+}
+
+.find_contact_content h2 {
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-size: 90px;
+    color: #e6e6e6;
+    font-weight: bold;
+    margin: 140px 12% 15px 95px;
+}
+.find_contact_content p {
+    font-size: 24px;
+    color: #000000;
+    margin: 0 11% 0 95px;
+}
+
+.find_contact_cub {
+    width: 170px;/*170/1600*/
+    height: 155px;/*155/730*/
+    background: #5e42b0;
+    position: absolute;
+    top: calc(50% - 105px);
+    left: calc(50% - 85px)
+}
+.find_contact_cub span{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    display: inline-block;
+    border-bottom: 5px solid #8f7bc8;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5f6f7;
+}

@@ -1,7 +1,8 @@
 var React = require("react"),
     Athletes = require("./content/athletes.react"),
     Players = require("./content/players.react"),
-    Beactive = require("./content/be_active");
+    Beactive = require("./content/be_active"),
+    Find_contact = require("./content/Find_contact");
 
 var Main = React.createClass({
     render: function () {
@@ -11,6 +12,7 @@ var Main = React.createClass({
                     <Athletes/>
                     <Players/>
                     <Beactive/>
+                    <Find_contact/>
                 </main>
             </div>
         )

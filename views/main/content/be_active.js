@@ -1,38 +1,20 @@
 var React = require("react");
 
-var Players = React.createClass({
+var Beactive = React.createClass({
     render: function () {
         return (
             <div>
-                <section className="players">
-                    <div className="players_row1">
-                        <div className="players_right">
-                            <h2>Players</h2>
-                            <div className="connection">
-                                <span>01</span>
-                                <h3>connection</h3>
-                                <p>Connect with talented athlete directly, you can watch their
-                                    skills through video showreels directly from Surface 1.</p>
-                            </div>
+                <section className="be_active">
+                    <div className="row">
+                        <div className="be_active_img">
+                            <img src="../../img/content/shutterstock_1.jpg" alt="be active"/>
                         </div>
-                    </div>
-                    <div className="players_row2">
-                        <div className="players_right">
-                            <div className="collaboration">
-                                <span>02</span>
-                                <h3>collaboration</h3>
-                                <p>Work with recruiter to increase your chances of finding
-                                    talented athlete.</p>
-                            </div>
+                        <div className="be_active_content">
+                            <h2>be active</h2>
+                            <p>Post videos with your skills. Like and follow others to be more popular.</p>
                         </div>
-                    </div>
-                    <div className="players_row3">
-                        <div className="players_right">
-                            <div className="growth">
-                                <span>03</span>
-                                <h3>growth</h3>
-                                <p>Save your time, recruit proper athletes for your team.</p>
-                            </div>
+                        <div className="be_active_cub">
+                            <span>01</span>
                         </div>
                     </div>
                 </section>
@@ -41,4 +23,4 @@ var Players = React.createClass({
     }
 });
 
-module.exports = Players;
+module.exports = Beactive;

@@ -32,6 +32,7 @@ var Html = React.createClass({
                 <link href="css/components-style/header.css" rel="stylesheet" media="screen"/>
                 <link href="css/components-style/athletes.css" rel="stylesheet" media="screen"/>
                 <link href="css/components-style/players.css" rel="stylesheet" media="screen"/>
+                <link href="css/components-style/be_active.css" rel="stylesheet" media="screen"/>
                 <link href="css/components-style/footer.css" rel="stylesheet" media="screen"/>
 
             </head>

@@ -1,0 +1,51 @@
+/*start section players*/
+.be_active{
+    position: relative;
+    max-height: 730px;
+}
+.be_active_img {
+    width: 50%;
+    float: left;
+}
+
+.be_active_img img {
+    width: 100%;
+    height: auto;
+}
+
+.be_active_content {
+    width: 50%;
+    float: right;
+}
+
+.be_active_content h2 {
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #e6e6e6;
+    font-weight: bold;
+    margin: 140px 0 50px 128px;
+}
+.be_active_content p {
+    font-size: 24px;
+    color: #000000;
+    margin: 0 0 0 128px;
+}
+
+.be_active_cub {
+    width: 170px;/*170/1600*/
+    height: 155px;/*155/730*/
+    background: #5e42b0;
+    position: absolute;
+    top: calc(50% - 105px);
+    left: calc(50% - 85px)
+}
+.be_active_cub span{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    display: inline-block;
+    border-bottom: 5px solid #8f7bc8;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5f6f7;
+}

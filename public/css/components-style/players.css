@@ -1,8 +1,13 @@
 /*start section players*/
 .players {
     font-size: 20px;
+    position: relative;
 }
-
+.players>img {
+    position: absolute;
+    top: -1%;
+    right: 0;
+}
 .players h3 {
     font-size: 36px;
     color: #c1c1c1;

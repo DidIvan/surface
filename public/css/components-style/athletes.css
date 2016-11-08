@@ -1,6 +1,13 @@
 /*start section athletes*/
 .athletes {
     font-size: 20px;
+    position: relative;
+}
+.athletes>img {
+    position: absolute;
+    bottom: -18%;
+    left: 0;
+
 }
 
 .athletes h3 {

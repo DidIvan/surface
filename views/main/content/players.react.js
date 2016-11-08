@@ -5,6 +5,7 @@ var Players = React.createClass({
         return (
             <div>
                 <section className="players">
+                    <img src="../../img/content/basketballer.png" alt="basketball player"/>
                     <div className="players_row1">
                         <div className="players_right">
                             <h2>Players</h2>

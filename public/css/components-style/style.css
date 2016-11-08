@@ -20,7 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     max-width: 1600px;
-    /*    width: 85%;*/
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .container_header, .container_footer {
@@ -28,4 +32,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 
-
+/*
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}*/

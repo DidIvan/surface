@@ -3,11 +3,17 @@
     font-size: 20px;
     position: relative;
 }
-.athletes>img {
+
+.athletes_img {
+    width: 45.312%; /*725/1600*/
     position: absolute;
     bottom: -18%;
-    left: 0;
+    left: 7%;
+}
 
+.athletes_img img {
+    width: 100%;
+    height: auto;
 }
 
 .athletes h3 {
@@ -60,7 +66,8 @@
 .growth {
     margin-top: 90px;
 }
-.growth p{
+
+.growth p {
     color: #ffffff;
 }
 

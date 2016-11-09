@@ -3,11 +3,18 @@
     font-size: 20px;
     position: relative;
 }
-.players>img {
+.players_img {
+    width: 62%;/*995/1600*/
     position: absolute;
-    top: -1%;
-    right: 0;
+    top: -3%;
+    right: -3%;
 }
+
+.players_img img {
+    width: 100%;
+    height: auto;
+}
+
 .players h3 {
     font-size: 36px;
     color: #c1c1c1;

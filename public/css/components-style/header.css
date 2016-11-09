@@ -1,8 +1,8 @@
 
 #header {
-    background: #0a0e34 url('../../img/football.png')  100% no-repeat;
+    background: #0a0e34 url('../../img/football.png') 100% no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 960px;
 }
 
 .logo {
@@ -14,9 +14,11 @@
     max-width: 100%;
     height: auto;
 }
-.header-top{
+
+.header-top {
     margin-top: 65px;
 }
+
 .header-top p {
     float: right;
     text-transform: uppercase;
@@ -57,7 +59,6 @@ ul.nav {
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
-    font-weight: bold;
     color: #ffffff;
     background-color: inherit;
 }
@@ -125,6 +126,7 @@ a.button:active {
         height: 565px;
         overflow: hidden;
     }
+
     .logo {
         float: none;
         margin: 40px 0 0 0;
@@ -135,6 +137,7 @@ a.button:active {
     .header-top p {
         display: none;
     }
+
     .header-center {
         margin: 140px 0 0 0;
         text-align: center;
@@ -151,8 +154,9 @@ a.button:active {
     a.button {
         width: 142px;
         height: 38px;
-        font-size:0.571em;
+        font-size: 0.571em;
     }
+
     .button_1 img, .button_2 img {
         display: block;
         position: absolute;
@@ -173,32 +177,40 @@ a.button:active {
         text-transform: uppercase;
         margin: 10px 0 0 45px;
     }
+
     .p_left, .p_right {
         float: none;
         margin: 0;
     }
+
     .buttons {
         bottom: 95px;
     }
-    .header-center+.row {
+
+    .header-center + .row {
         position: absolute;
         bottom: 15px;
     }
+
     ul.nav {
         width: 85%;
         float: right;
     }
+
     .nav li {
 
     }
+
     .nav > li > a {
         padding: 5px 15px;
         font-size: 12px;
     }
+
     .nav li:nth-child(4) {
         padding-left: 45px;
     }
 }
+
 /* Displaying on devices with width range till 768px(small devices, tablets)*/
 /*@media screen and (max-width: 768px){
     #header {
@@ -212,6 +224,7 @@ a.button:active {
         height: 955px;
         overflow: hidden;
     }
+
     .header-center {
         margin: 275px 0 0 0;
         text-align: center;
@@ -259,8 +272,6 @@ a.button:active {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #header {
-        height: 1082px;
-    }
+
 }
 

@@ -120,7 +120,58 @@ a.button:active {
 
 /*end button*/
 
-/* Large devices ( mobile, 320px) */
+/* Displaying on devices with width range till 1200px(large devices)*/
+@media screen and (max-width: 1200px){
+
+}
+/* Displaying on devices with width range till 992px(medium devices, desktops)*/
+@media screen and (max-width: 992px){
+
+}
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+@media screen and (max-width: 768px){
+    #header {
+        height: 955px;
+        overflow: hidden;
+    }
+
+    .header-center {
+        margin: 275px 0 0 0;
+        text-align: center;
+    }
+
+    .header-center p {
+        font-size: 4.571em; /*64/14*/
+    }
+
+    .p_right, .p_left {
+        float: none;
+        margin: 0;
+    }
+
+    .nav > li > a {
+        font-size: 16px;
+    }
+
+    ul.nav {
+        margin: 235px 0 0 0;
+        padding: 0 50px;
+    }
+
+    .nav > li > a {
+        padding: 25px 25px;
+    }
+
+    .buttons {
+        bottom: 90px;
+    }
+}
+/* Displaying on devices with width range till 480px(extra small devices, phones)*/
+@media screen and (max-width: 480px){
+
+}
+
+/*!* Large devices ( mobile, 320px) *!
 @media screen and (min-width: 320px)and (max-width: 600px) {
     #header {
         height: 565px;
@@ -144,7 +195,7 @@ a.button:active {
     }
 
     .header-center p {
-        font-size: 2.285em; /*32/14*/
+        font-size: 2.285em; !*32/14*!
     }
 
     .buttons {
@@ -209,56 +260,10 @@ a.button:active {
     .nav li:nth-child(4) {
         padding-left: 45px;
     }
-}
-
-/* Displaying on devices with width range till 768px(small devices, tablets)*/
-/*@media screen and (max-width: 768px){
-    #header {
-        height: 955px;
-        overflow: hidden;
-    }
 }*/
-/* Large devices (large desktops, 768px and up) */
-@media screen and (min-width: 601px) and (max-width: 768px) {
-    #header {
-        height: 955px;
-        overflow: hidden;
-    }
 
-    .header-center {
-        margin: 275px 0 0 0;
-        text-align: center;
-    }
 
-    .header-center p {
-        font-size: 4.571em; /*64/14*/
-    }
-
-    .p_right, .p_left {
-        float: none;
-        margin: 0;
-    }
-
-    .nav > li > a {
-        font-size: 16px;
-    }
-
-    ul.nav {
-        margin: 235px 0 0 0;
-        padding: 0 50px;
-    }
-
-    .nav > li > a {
-        padding: 25px 30px;
-    }
-
-    .buttons {
-        bottom: 90px;
-    }
-
-}
-
-/* Large devices (large desktops, 768px and up) */
+/*!* Large devices (large desktops, 768px and up) *!
 @media screen and (min-width: 769px) {
     .header-center {
         margin: 395px 0 0 0;
@@ -268,10 +273,4 @@ a.button:active {
         bottom: 105px;
     }
 
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-
-}
-
+}*/

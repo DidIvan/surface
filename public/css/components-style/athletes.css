@@ -21,7 +21,7 @@
     color: #c1c1c1;
     text-transform: uppercase;
     display: inline-block;
-    margin-left: 10px;
+    margin: 0 0 20px 10px;
 }
 
 .athletes span {
@@ -74,6 +74,7 @@
 .athletes_right {
     width: 45.75%; /*732/1600*/
     float: right;
+    padding-right: 12.25%;/*196/1600*/
 }
 
 .athletes .growth span {
@@ -82,3 +83,33 @@
 }
 
 /*end section athletes*/
+
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+@media screen and (max-width: 768px) {
+    .athletes {
+        height: 790px;
+        overflow: hidden;
+    }
+    .athletes_row1 {
+        height: 350px;
+    }
+    .athletes_row1 h2 {
+        margin: 80px 0 60px 0;
+    }
+    .athletes_row2 {
+        height: 240px;
+    }
+    .athletes_row3 {
+        height: 200px;
+    }
+    .athletes_right {
+        width: 61%; /*475/768*/
+    }
+
+    .athletes_img {
+        width: 725px;
+        /*   position: absolute;
+           bottom: -19%;*/
+        left: -35%;
+    }
+}

@@ -5,10 +5,10 @@
 }
 
 .athletes_img {
-    width: 45.312%; /*725/1600*/
+    width: 725px;
     position: absolute;
-    bottom: -18%;
-    left: 7%;
+    bottom: -19%;
+    left: 3%;
 }
 
 .athletes_img img {

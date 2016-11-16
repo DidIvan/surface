@@ -26,7 +26,9 @@
     font-weight: bold;
     margin: 0 30px 0 0;
 }
-
+.header-center {
+    margin-top: 400px;
+}
 .header-center p {
     font-size: 6.428em; /*90/14*/
     line-height: 1;
@@ -68,6 +70,7 @@ ul.nav {
     position: absolute;
     width: 100%;
     text-align: center;
+    margin-top: 150px;
 }
 
 a.button {
@@ -171,106 +174,3 @@ a.button:active {
 
 }
 
-/*!* Large devices ( mobile, 320px) *!
-@media screen and (min-width: 320px)and (max-width: 600px) {
-    #header {
-        height: 565px;
-        overflow: hidden;
-    }
-
-    .logo {
-        float: none;
-        margin: 40px 0 0 0;
-        display: block;
-        text-align: center;
-    }
-
-    .header-top p {
-        display: none;
-    }
-
-    .header-center {
-        margin: 140px 0 0 0;
-        text-align: center;
-    }
-
-    .header-center p {
-        font-size: 2.285em; !*32/14*!
-    }
-
-    .buttons {
-        bottom: 90px;
-    }
-
-    a.button {
-        width: 142px;
-        height: 38px;
-        font-size: 0.571em;
-    }
-
-    .button_1 img, .button_2 img {
-        display: block;
-        position: absolute;
-        top: 50%;
-        max-width: 11%;
-        height: auto;
-    }
-
-    .button_1 img {
-        margin: -10px 0 0 20px;
-    }
-
-    .button_2 img {
-        margin: -10px 0 0 20px;
-    }
-
-    .buttons p {
-        text-transform: uppercase;
-        margin: 10px 0 0 45px;
-    }
-
-    .p_left, .p_right {
-        float: none;
-        margin: 0;
-    }
-
-    .buttons {
-        bottom: 95px;
-    }
-
-    .header-center + .row {
-        position: absolute;
-        bottom: 15px;
-    }
-
-    ul.nav {
-        width: 85%;
-        float: right;
-    }
-
-    .nav li {
-
-    }
-
-    .nav > li > a {
-        padding: 5px 15px;
-        font-size: 12px;
-    }
-
-    .nav li:nth-child(4) {
-        padding-left: 45px;
-    }
-}*/
-
-
-/*!* Large devices (large desktops, 768px and up) *!
-@media screen and (min-width: 769px) {
-    .header-center {
-        margin: 395px 0 0 0;
-    }
-
-    .buttons {
-        bottom: 105px;
-    }
-
-}*/

@@ -8,6 +8,9 @@ var Beactive = React.createClass({
                     <div className="row">
                         <div className="work_it_img">
                             <img src="../../img/content/shutterstock_2.jpg" alt="be active"/>
+                            <div className="work_it_cub">
+                                <span>03</span>
+                            </div>
                         </div>
                         <div className="work_it_content">
                             <h2>work it</h2>
@@ -15,9 +18,7 @@ var Beactive = React.createClass({
                                 process can be overwhelming, we want to
                                 make this a enjoyable experience. </p>
                         </div>
-                        <div className="work_it_cub">
-                            <span>03</span>
-                        </div>
+                        
                     </div>
                 </section>
             </div>

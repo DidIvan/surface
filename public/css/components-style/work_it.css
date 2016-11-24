@@ -1,11 +1,12 @@
 /*start section players*/
 .work_it{
-    position: relative;
+  /*  position: relative;*/
   /*  max-height: 730px;*/
 }
 .work_it_img {
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .work_it_img img {
@@ -36,8 +37,8 @@
     height: 155px;/*155/730*/
     background: #5e42b0;
     position: absolute;
-    top: calc(50% - 105px);
-    left: calc(50% - 85px)
+    bottom: calc(50% - 90px);
+    right: -85px;
 }
 .work_it_cub span{
     position: relative;
@@ -66,7 +67,7 @@
         margin: 0 85px 150px 33px;
     }
     .work_it_cub {
-        top: 45%;
+        bottom: -35px;
         left: 33px;
     }
 }

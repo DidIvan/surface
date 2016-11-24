@@ -1,11 +1,12 @@
 /*start section players*/
 .be_active{
-    position: relative;
+  /*  position: relative;*/
    /* max-height: 730px;*/
 }
 .be_active_img {
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .be_active_img img {
@@ -36,8 +37,8 @@
     height: 155px;/*155/730*/
     background: #5e42b0;
     position: absolute;
-    top: calc(50% - 105px);
-    left: calc(50% - 85px)
+    bottom: calc(50% - 90px);
+    right: -85px;
 }
 .be_active_cub span{
     position: relative;
@@ -66,7 +67,7 @@
         margin: 0 85px 100px 33px;
     }
     .be_active_cub {
-        top: 45%;
+        bottom: -35px;
         left: 33px;
     }
 }

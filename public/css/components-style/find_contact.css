@@ -1,10 +1,11 @@
 .find_contact{
-    position: relative;
+   /* position: relative;*/
    /* max-height: 730px;*/
 }
 .find_contact_img {
     width: 50%;
     float: right;
+    position: relative;
 }
 
 .find_contact_img img {
@@ -36,8 +37,8 @@
     height: 155px;/*155/730*/
     background: #5e42b0;
     position: absolute;
-    top: calc(50% - 105px);
-    left: calc(50% - 85px)
+    bottom: calc(50% - 90px);
+    left: -85px;
 }
 .find_contact_cub span{
     position: relative;
@@ -66,7 +67,7 @@
         margin: 0 85px 110px 33px;
     }
     .find_contact_cub {
-        top: 45%;
+        bottom: -35px;
         left: 33px;
     }
 }

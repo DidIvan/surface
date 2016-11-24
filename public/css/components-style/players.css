@@ -81,3 +81,41 @@
 }
 
 /*end section players*/
+
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+@media screen and (max-width: 768px) {
+    .players {
+        height: 790px;
+        overflow: hidden;
+    }
+    .players p {
+        font-size: 18px;
+    }
+    .players_row1 {
+        height: 350px;
+    }
+    .players_row1 h2 {
+        margin: 80px 0 60px 0;
+    }
+    .players_row2 {
+        height: 235px;
+    }
+    .players_row3 {
+        height: 205px;
+    }
+    .players_right {
+        width: 61%; /*475/768*/
+    }
+    .players .growth {
+        margin-top: 35px;
+    }
+    .players h3 {
+        margin-bottom: 35px;
+    }
+    .players_img {
+        width: 85%;
+        position: absolute;
+        right: -26%;
+        top: 60px;
+    }
+}

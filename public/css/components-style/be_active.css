@@ -1,7 +1,7 @@
 /*start section players*/
 .be_active{
     position: relative;
-    max-height: 730px;
+   /* max-height: 730px;*/
 }
 .be_active_img {
     width: 50%;
@@ -48,4 +48,25 @@
     font-size: 24px;
     font-weight: bold;
     color: #f5f6f7;
+}
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+@media screen and (max-width: 768px) {
+    .be_active_img {
+        width: 100%;
+        float: none;
+    }
+    .be_active_content {
+        width: 100%;
+        float: none;
+    }
+    .be_active_content h2 {
+        margin: 90px 0 38px 33px;
+    }
+    .be_active_content p {
+        margin: 0 85px 100px 33px;
+    }
+    .be_active_cub {
+        top: 45%;
+        left: 33px;
+    }
 }

@@ -1,7 +1,7 @@
 /*start section players*/
 .work_it{
     position: relative;
-    max-height: 730px;
+  /*  max-height: 730px;*/
 }
 .work_it_img {
     width: 50%;
@@ -48,4 +48,25 @@
     font-size: 24px;
     font-weight: bold;
     color: #f5f6f7;
+}
+/* Displaying on devices with width range till 768px(small devices, tablets)*/
+@media screen and (max-width: 768px) {
+    .work_it_img {
+        width: 100%;
+        float: none;
+    }
+    .work_it_content {
+        width: 100%;
+        float: none;
+    }
+    .work_it_content h2 {
+        margin: 90px 0 38px 33px;
+    }
+    .work_it_content p {
+        margin: 0 85px 150px 33px;
+    }
+    .work_it_cub {
+        top: 45%;
+        left: 33px;
+    }
 }

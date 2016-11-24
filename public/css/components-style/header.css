@@ -87,7 +87,7 @@ a.button {
 }
 
 .button_1 {
-    margin-right: 2%;
+    margin-right: 50px;
 }
 
 .button_1 img, .button_2 img {
@@ -167,6 +167,9 @@ a.button:active {
 
     .buttons {
         bottom: 90px;
+    }
+    .button_1 {
+        margin-right: 28px;
     }
 }
 /* Displaying on devices with width range till 480px(extra small devices, phones)*/

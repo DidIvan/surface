@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 1600px;
 }
 
-.row {
+/*.row {
     margin-right: 0;
     margin-left: 0;
-}
+}*/
 
 .container_header, .container_footer {
     height: inherit;

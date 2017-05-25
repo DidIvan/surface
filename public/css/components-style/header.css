@@ -195,55 +195,69 @@ a.button:active {
         text-align: center;
 
     }
-    .right_logo{
+
+    .right_logo {
         display: none;
     }
+
     .header-top {
         margin-top: 40px;
     }
+
     .header-center {
         margin: 130px 0 0 0;
     }
+
     .header-center p {
         font-size: 32px;
         line-height: 1.2;
     }
+
     a.button {
         width: 142px;
         height: 40px;
     }
-    .buttons p{
+
+    .buttons p {
         font-size: 8px;
     }
+
     .button_1 {
         margin-right: 6px;
     }
+
     .button_1 img {
         width: 16px;
         height: 18px;
         margin: -12px 0 0 20px;
     }
+
     .button_2 img {
         width: 18px;
         height: 19px;
         margin: -12px 0 0 20px;
     }
+
     .buttons p {
         margin: 12px 0 0 50px;
     }
+
     ul.nav {
         margin: 0 0 0 0;
         padding: 0 0;
         position: absolute;
         bottom: 20px;
     }
+
     .nav > li > a {
         font-size: 12px;
         padding: 5px 18px;
     }
+
     .nav > li:first-child {
         margin-left: 17px;
     }
+
     .nav > li:nth-child(4) {
         margin-left: 72px;
     }

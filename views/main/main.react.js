@@ -8,7 +8,6 @@ var React = require("react"),
 var Main = React.createClass({
     render: function () {
         return (
-            <div>
                 <main>
                     <Athletes/>
                     <Players/>
@@ -16,7 +15,7 @@ var Main = React.createClass({
                     <Find_contact/>
                     <Work_it/>
                 </main>
-            </div>
+       
         )
     }
 });

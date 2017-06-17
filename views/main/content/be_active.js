@@ -3,7 +3,6 @@ var React = require("react");
 var Beactive = React.createClass({
     render: function () {
         return (
-            <div>
                 <section className="be_active">
                     <div className="row">
                         <div className="be_active_img">
@@ -18,7 +17,6 @@ var Beactive = React.createClass({
                         </div>
                     </div>
                 </section>
-            </div>
         )
     }
 });

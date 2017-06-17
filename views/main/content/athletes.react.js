@@ -3,7 +3,6 @@ var React = require("react");
 var Athletes = React.createClass({
     render: function () {
         return (
-            <div>
                 <section className="athletes">
                     <div className="athletes_img">
                         <img src="../../img/content/footballer.png" alt="football player"/>
@@ -41,7 +40,6 @@ var Athletes = React.createClass({
                         </div>
                     </div>
                 </section>
-            </div>
         )
     }
 });

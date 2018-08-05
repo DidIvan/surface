@@ -1,6 +1,6 @@
 
 #header {
-    background: #0a0e34 url('../../img/header/football.jpg') 100% no-repeat;
+    background: #0a0e34 url('../../img/header/football.jpg') no-repeat;
     background-size: cover;
     height: 960px;
 }
